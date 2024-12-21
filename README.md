@@ -10,6 +10,13 @@ CodeAnt AI frontend demo application built as a part of Codeant AI hiring proces
 - Context API for global state management.
 - Vite as the build tool.
 
+#### Functionalities
+
+- Login: Click on any login method to get logged in.
+- Routes: Click on any link from the navigation bar to go to that page.
+- Mode: Click on the mode button to toggle between light and dark mode.
+- Responsiveness: The application is responsive to all screen sizes.
+
 #### Steps to set up the project in your local environment
 
 1. Clone this repository
@@ -37,12 +44,6 @@ npm run dev
 ```
 
 5. Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
-
-#### Functionalities
-
-- Login: Click on any login method to get logged in.
-- Routes: Click on any link from the navigation bar to go to that page.
-- Mode: Click on the mode button to toggle between light and dark mode.
 
 #### UI
 

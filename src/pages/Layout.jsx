@@ -16,7 +16,11 @@ function Layout() {
       </section>
       <section className="lg:flex-grow w-full p-4 max-sm:p-0">
         <Topbar />
-        <div className={`${showNavbar && "bg-zinc-300 dark:bg-zinc-800"}`}>
+        <div
+          className={`min-h-full ${
+            showNavbar && "bg-zinc-300 dark:bg-zinc-800"
+          }`}
+        >
           <Outlet />
         </div>
       </section>
