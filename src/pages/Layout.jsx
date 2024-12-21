@@ -9,7 +9,7 @@ function Layout() {
     <div
       className={`${
         isDark ? "dark" : ""
-      } flex h-full min-h-screen w-full divide-x dark:divide-gray-700 text-gray-700 dark:text-gray-600 font-IN dark:bg-gray-900`}
+      } flex h-full min-h-screen w-full overflow-hidden divide-x dark:divide-gray-700 text-gray-700 dark:text-gray-600 font-IN dark:bg-gray-900`}
     >
       <section className={`max-sm:fixed max-sm:top-0 md:w-1/4 lg:w-1/5`}>
         <Sidebar />
@@ -17,7 +17,7 @@ function Layout() {
       <section className="lg:flex-grow w-full p-4 max-sm:p-0">
         <Topbar />
         <div
-          className={`min-h-full ${
+          className={`h-full overflow-hidden ${
             showNavbar && "bg-zinc-300 dark:bg-zinc-800"
           }`}
         >
