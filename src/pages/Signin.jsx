@@ -12,7 +12,7 @@ function Signin() {
         <SignInInfo />
       </div>
 
-      <div className="w-1/2 flex justify-center items-center max-md:w-full">
+      <div className="w-1/2 flex flex-col gap-5 justify-center items-center max-md:w-full">
         <div className="flex flex-col justify-center items-center border border-gray-200 rounded-lg min-w-[75%]">
           <div className="flex flex-col items-center gap-5 p-4 w-full border-b">
             <div className="flex gap-1 items-center">
@@ -50,6 +50,10 @@ function Signin() {
             ))}
           </div>
         </div>
+        <p className="text-sm">
+          By signing up you agree to the
+          <span className="font-bold"> Privacy Policy</span>
+        </p>
       </div>
     </div>
   );

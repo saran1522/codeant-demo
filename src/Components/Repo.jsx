@@ -6,7 +6,7 @@ function Repo({ repo }) {
     <div className="p-4 flex flex-col gap-2">
       <div className="flex gap-2 items-center">
         <p className="text-lg font-semibold">{repo.title}</p>
-        <span className="rounded-full text-[.75rem] px-1.5 border text-blue-500 border-blue-400 dark:border-blue-500 bg-blue-50 dark:bg-blue-200">
+        <span className="rounded-full text-[.75rem] px-1.5 border text-blue-400 border-blue-300 dark:border-blue-500 bg-blue-50 dark:bg-blue-200">
           {repo.visibility}
         </span>
       </div>

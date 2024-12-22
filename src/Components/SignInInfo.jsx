@@ -5,7 +5,7 @@ import { TbArrowUp } from "react-icons/tb";
 function SignInInfo() {
   return (
     <div className="h-full w-full flex items-center justify-center">
-      <div className="mb-20 relative">
+      <div className="mb-32 relative">
         <div className="flex flex-col divide-y rounded-2xl shadow-[0px_0px_15px_0px_rgba(10,10,80,0.15)]">
           <div className="flex gap-2 items-center p-3">
             <img src="/logo.png" className="h-5" />

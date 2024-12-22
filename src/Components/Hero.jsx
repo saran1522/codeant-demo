@@ -18,7 +18,7 @@ function Hero({ query, setQuery }) {
           <HeroButton icon={TbPlus} title="Add Repository"></HeroButton>
         </div>
       </div>
-      <div className="flex w-fit max-sm:w-full items-center rounded-lg border  border-gray-200 dark:border-gray-700">
+      <div className="flex w-fit max-sm:w-full items-center rounded-lg border border-gray-200 dark:border-gray-700">
         <TbSearch className="p-2 text-gray-500" size={40} />
         <input
           type="text"
